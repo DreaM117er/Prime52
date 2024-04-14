@@ -1,5 +1,8 @@
 # Building Guide
 
+- [中文版本（Chinese Readme）](guide.md)。
+- 英文版本（English Readme）。
+
 ## Firmware
 
 > **Note**
@@ -14,125 +17,125 @@
 
 ## PCB and MCU
 
-- 首先將燒錄好韌體的2片主控板跟左右手電路板準備好。
+- First of all, prepare the two MCU and the left and right PCBs.
 ![](pic/1-01.jpg)
 
-- 接著剪下一段紙膠帶，對好位置把主控板用膠帶先固定好。
+- Cut a piece of paper tape and fix the MCU with the tape in the right position.
 ![](pic/1-02.jpg)
 
-- 先將其中一排焊盤先用焊錫固定好，再將膠帶撕掉。
+- Fix one of the rows of pads with solder first, and then tear off the tape.
 ![](pic/1-03.jpg)
 
-- 最後再用焊錫把其他位置的焊盤都焊上。
+- Then use solder to attach the pads at the other locations.
 ![](pic/1-04.jpg)
 
 ## SMD Parts
 
-- 1N4148二極體的安裝方式請參照圖片所示。
+- Please refer to the picture for the mounting method of 1N4148 diode.
 ![](pic/2-01.png)
 
-- 接著將52個二極體用焊錫焊接好。
+- Solder the 52 diodes together.
 ![](pic/2-02.jpg)
 
-- 下圖是SK6812Mini-E的安裝方式，如果沒有要安裝LED燈的話，請跳過這個步驟。
+- The following photo shows how to install SK6812Mini-E, if you don't want to install LED lights, please skip this step.
 ![](pic/2-03.png)
 
-- 貼片LED燈務必留意電烙鐵不要在焊盤上停留過久的時間，LED燈有機率會被燒壞。
+- Be careful not to leave the soldering iron on the soldering pad for too long, as the LEDs may be burnt out.
 ![](pic/2-04.jpg)
 
-- LED固定好之後可以先接上電腦測試，鍵盤預設燈亮。
+- After fixing the LED, you can connect it to the computer and test it, and the default light of the keyboard is on.
 ![](pic/2-05.jpg)
 
-- 二極體、LED燈都完成之後最後再將熱插拔座固定在電路板上。
+- After the diodes and LEDs are completed, the hot-swap sockets are finally attached to the board.
 ![](pic/2-06.jpg)
 
 ## Encoder and Jack
 
 > **Warning**
 >
-> 現階段版本問題的原因，這裡的做法會跟照片有所出入，請務必留意文字說明。
+> Due to a problem with this version, there is a difference in the way things are done here and in the photos, so please be sure to pay attention to the text.
 
-- 將滑鼠滾輪、滑鼠微動、滑鼠編碼器、旋鈕編碼器、TRRS座及Joy-con搖桿準備好，並依序將它們固定在電路板上。
+- Prepare the Mouse Wheel, Mouse Microswitch, Mouse Encoder, Rotary Encoder, TRRS Holder, and Joy-con Joystick, and secure them to the PCB.
 ![](pic/3-01.jpg)
 
-- 第一步先將滑鼠編碼器焊接固定好之後，再把滑鼠滾輪固定在六角輪上。
+- The first step is to solder the mouse encoder in place and then attach the mouse wheel to the hexagonal wheel.
 ![](pic/3-02.jpg)
 
-- 接著再將滑鼠微動卡在定位點焊接固定好。
+- Then weld the mouse microswitch in place at the pads.
 ![](pic/3-03.jpg)
 
 > **Note**
 >
-> 如果不先這麼做的話，滑鼠滾輪會無法正常安裝到編碼器上，務必留意。
+> If you don't do this first, the mouse wheel will not be properly installed on the encoder, so be careful.
 
-- 接著再將旋鈕、TRRS座、Joy-con搖桿也都焊接起來。
+- Solder the rotary encoder, TRRS holders, and Joy-con joystick as well.
 ![](pic/3-04.jpg)
 
-- 然後就可以測試鍵盤左右側通電的狀況，務必在這個時候就進行LED燈測試及左右鍵盤按鍵的訊號狀況。（照片為示意圖，沒有完成整體的安裝）
+- Then you can test the power on the left and right side of the keyboard, be sure to test the LEDs and the signals of the left and right keyboard keys at this time. (The photo is a schematic picture, the whole installation is not finished.)
 ![](pic/3-05.jpg)
 
 ## Keyboard Building
 
-- 接著將15mm的銅柱、3mm的螺絲準備好，先來安裝固定滑鼠滾輪的銅柱。
+- Prepare the 15mm spacers and 3mm screws, and install the post that holds the mouse wheel in place.
 ![](pic/4-01.jpg)
 
-- 從左右手的電路板背面將銅柱固定上去。 
+- Attach the spacers posts from the back of the left and right hand PCBs. 
 ![](pic/4-02.jpg)
 
-- 接著準備8mm螺絲、M2螺帽及M2螺絲墊片，將它們依序固定在左右側的鍵盤底板上。
+- Prepare 8mm screws, M2 nuts and M2 spacers, and fix them to the left and right side of the bottom case in order.
 ![](pic/4-03.jpg)
 
-- 左右側按照照片示意固定8mm的螺絲。
+- Fix the 8mm screws on the left and right sides as shown in the photo.
 ![](pic/4-04.jpg)
 
-- 對好電路板上的螺絲孔，將電路板放在底板上。
+- Align the screw holes on the board and place the board on the base plate.
 ![](pic/4-05.jpg)
 
-- 接著準備6mm、7mm銅柱。
+- Next, prepare 6mm and 7mm spacers.
 ![](pic/4-06.jpg)
 
-- 6mm銅柱安裝在Joy-con搖桿的位置、7mm銅柱安裝在旋鈕編碼器及主控板的位置。
+- 6mm brass post for Joy-con joystick, 7mm brass post for rotary encoder and MCU.。
 ![](pic/4-07.jpg)
 
-- 接著準備定位板、4mm銅柱及3mm螺絲。
+- Then prepare the positioning plate, 4mm spacers and 3mm screws.
 ![](pic/4-08.jpg)
 
-- 把它們固定在定位板上的螺絲孔上。
+- Secure them to the screw holes in the plate.
 ![](pic/4-09.jpg)
 
-- 接著把定位板跟底板組合在一起。
+- Next, assemble the plate with the bottom case.
 ![](pic/4-10.jpg)
 
-- 使用3mm螺絲從底板後面把定位板固定起來。
+- Use 3mm screws to secure the locator plate from the back of the bottom case.
 ![](pic/4-11.jpg)
 
-- 最後一步將所有的擋板固定到鍵盤上。
+- The final step is to secure all the covers to the keyboard.
 ![](pic/4-12.jpg)
 
-- 完成之後把鍵盤翻到背面，把自黏腳貼貼上去。
+- When you're done, turn the keyboard over to the back and stick the rubber feet on it.
 ![](pic/4-13.jpg)
 
-- 大致像下圖這樣貼即可，需要受較大力的地方多貼一些比較穩固。
+- Just paste it roughly like the picture below, and paste it more where it needs to be subjected to stronger force to make it more stable.
 ![](pic/4-14.jpg)
 
-- 將兩隻手的部分完工就結束了。
+- Finish the two hands section and you're done.
 ![](pic/4-15.jpg)
 
-- 上軸。
+- install switches.
 ![](pic/4-16.jpg)
 
-- 上鍵帽，測試燈光效果
+- Put on the keycap and test the lighting effect
 ![](pic/4-17.jpg)
 
 ## Troubleshooting
 
-- LED燈預設是開著燈，如果LED燈沒有焊接固定完整，燈效會跑掉，嚴重時電腦會無法辨識鍵盤，這時設法將燈光關閉可以直接排除這個問題，屆時再將LED焊接固定好即可。
-- 如果單顆按鍵沒有觸發，請依序檢查：熱插拔座、二極體、鍵軸。
-- 如果單排按鍵沒有觸發，請檢查看看是不是主控座沒有焊接好。
-- 旋鈕及搖桿本身自帶按鍵，不要忘記測試。
-- 編碼器的測試方式即測試預設的功能：音量大小、滾輪上下滾動。
+- The LED light is on by default, if the LED light is not soldered and fixed completely, the light effect will run out, and in serious cases, the computer will not be able to recognise the keyboard, then try to turn off the light to exclude this problem directly, and then solder the LED to fix it well.
+- If a single key does not trigger, please check in order: hot-swap socket, diode, switches.
+- If a column/row does not trigger, please check to see if the MCU is not soldered properly.
+- Don't forget to test the knobs and joysticks as they have their own keys.
+- The test method of the encoder is to test the preset functions: volume up and down, scroll up and down.
 
-希望這個能夠幫助大家解決任何在安裝上的困難，謝謝大家。
+I hope this can help you to solve any difficulties in the installation, thank you.
 
 
 

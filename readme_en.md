@@ -37,7 +37,7 @@ It's called the Prime52, and to put it simply, it's a low profile keyboard with 
 |`M2` Nut|16|-|-|
 |`M2` washers|16||-|
 |`ø8x1.5mm` Rubber feets|-|-|-|
-|`Mouse Switch`|2|-|[Link](https://vi.aliexpress.com/w/wholesale-mouse-switch.html?spm=a2g0o.productlist.search.0)|
+|Mouse `Microswitch`|2|-|[Link](https://vi.aliexpress.com/w/wholesale-mouse-switch.html?spm=a2g0o.productlist.search.0)|
 |Diode `1N4148`|52|`SOD-123` SMD|-|
 |Kailh `Choc` Switches|46|Supported v1、v2|-|
 |Kailh `Choc` Hot-swap Socket|46|-|[Link](https://vi.aliexpress.com/item/1005003879769486.html?channel=twinner)|
