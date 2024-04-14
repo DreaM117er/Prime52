@@ -56,7 +56,7 @@ It's called the Prime52, and to put it simply, it's a low profile keyboard with 
 - Difficulty in installing the mouse wheel, to be improved in the future with or without dual support for the buttons.
 - Mouse encoder pulse problem (not solved for the time being).
 - The limitations of MCU, in the future, can support more types of MCU, to the public commonly used as the main.
-- The wiring problem of the circuit board is also the main reason for not being able to support more MCUs.
+- The wiring problem of the PCB is also the main reason for not being able to support more MCUs.
 - Slave-side joystick potential drift, LED signals are sometimes unstable, it is possible to develop a new keyboard to directly change these problems. It seems to be symmetrical, but it is impossible to design a new keyboard.
 - It looks symmetrical, but it can't be designed to be symmetrical (the main reason for the Joy-con joystick).
 
