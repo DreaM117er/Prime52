@@ -35,6 +35,7 @@
 |`M2` 防滑墊片|16||-|
 |`ø8x1.5mm` 防滑墊片|-|-|-|
 |滑鼠用`微動開關`|2|-|[Link](https://vi.aliexpress.com/w/wholesale-mouse-switch.html?spm=a2g0o.productlist.search.0)|
+|二極體 `1N4148`|52|貼片式 `SOD-123`|-|
 |凱華`Choc`規格鍵軸|46|支援v1、v2|-|
 |凱華`Choc`系列熱插拔座|46|-|[Link](https://vi.aliexpress.com/item/1005003879769486.html?channel=twinner)|
 |`SK6212Mini-E` 反向LED燈|46|`選配`|[Link](https://vi.aliexpress.com/item/1005005956813491.html?channel=twinner)|
@@ -47,7 +48,7 @@
 
 |![pcb](pic/pcbl.png)|![pcb](pic/pcbr.png)|
 |--|--|
-|![pcb](pic/pcbl2.png)|![pcb](pic/pcbr2.jpg)|
+|![pcb](pic/pcbl2.png)|![pcb](pic/pcbr2.png)|
 
 - 滑鼠滾輪安裝上的困難，未來改進有無按鍵雙支援。
 - 滑鼠編碼器的脈衝問題（暫時無法解決）。
