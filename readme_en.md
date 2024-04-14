@@ -45,7 +45,7 @@ It's called the Prime52, and to put it simply, it's a low profile keyboard with 
 
 > **Note**
 >
-> The firmware must be flashed into the MCU before assembling the keyboard to make testing and installation easier: [Link to Building Guide](guide.md)
+> The firmware must be flashed into the MCU before assembling the keyboard to make testing and installation easier: [Link to Building Guide](guide_en.md)
 
 ## Issue for this version
 
