@@ -1,5 +1,8 @@
 # Prime52 v1
 
+- 中文說明（Chinese Readme）。
+- [英文說明（English Readme）](readme_en.md)。
+
 |![info](pic/info.png)|![info](pic/info2.png)|
 |--|--|
 |![info](pic/info3.jpg)|![info](pic/info4.jpg)|
@@ -33,7 +36,7 @@
 |M2x`8mm` 扁頭螺絲|16|-|-|
 |`M2` 螺母|16|-|-|
 |`M2` 防滑墊片|16||-|
-|`ø8x1.5mm` 防滑墊片|-|-|-|
+|`ø8x1.5mm` 自黏腳貼|-|-|-|
 |滑鼠用`微動開關`|2|-|[Link](https://vi.aliexpress.com/w/wholesale-mouse-switch.html?spm=a2g0o.productlist.search.0)|
 |二極體 `1N4148`|52|貼片式 `SOD-123`|-|
 |凱華`Choc`規格鍵軸|46|支援v1、v2|-|
