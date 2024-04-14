@@ -1,7 +1,9 @@
 # Prime52 v1
 
-![info](pic/info.png)
-![info](pic/info2.png)
+|![info](pic/info.png)|![info](pic/info2.png)|
+|--|--|
+|![info](pic/info3.png)|![info](pic/info4.png)|
+
 
 ## 詳細說明
 
@@ -19,9 +21,9 @@
 |FR4外殼|2|含擋板|-|
 |`RP2040Supermini`|2|-||
 |`EC-11`旋鈕編碼器|2|高`15mm`||
-|`EC-11`編碼器帽蓋|2|可選配，有提供3D模型||
+|`EC-11`編碼器帽蓋|2|`可選配`，有提供3D模型||
 |`EC10E`滑鼠編碼器|2|高`11mm`||
-|`MR-0017`滑鼠滾輪|2|-||
+|`MR-0017`滑鼠滾輪|2|`可選配`，有提供3D模型||
 |`Joy-con`搖桿|2|`6pin`直插式||
 |`3.5mm` TRRS座|2|`4Pin`直插式||
 |M2x`4mm` 雙通銅柱|12|定位板用||
@@ -36,7 +38,7 @@
 |滑鼠用`微動開關`|2|-||
 |凱華`Choc`規格鍵軸|46|支援v1、v2||
 |凱華`Choc`系列熱插拔座|46|-||
-|`SK6212Mini-E` 反向LED燈|46|選配||
+|`SK6212Mini-E` 反向LED燈|46|`選配`||
 
 > **Note**
 >
@@ -48,11 +50,13 @@
 - 滑鼠編碼器的脈衝問題（暫時無法解決）。
 - MCU的侷限性，未來可以支援更多類型的MCU，往大眾常使用的為主。
 - 電路板的走線問題，也是無法支援更多MCU的主因。
+- Slave端搖桿電位漂移、LED燈訊號有時而不穩定，有可能會開發新的鍵盤直接改掉這些問題。
 
 這是實際到手的`v1`版本在組裝上遇到的問題，`v2`版本的PCB會解決這個問題，並且會開發`MX`及`GLP`的版本出來。
 
 ## 使用資源
 
+- Datasheets from TTC, ALPS, Huano.
 - [QMK Firmware](https://qmk.fm/).
 - [VIAL](https://get.vial.today/).
 - [KiCAD](https://www.kicad.org/) version `7.0.5.`

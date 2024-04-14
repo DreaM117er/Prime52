@@ -1,0 +1,30 @@
+%TF.GenerationSoftware,KiCad,Pcbnew,7.0.5*%
+%TF.CreationDate,2024-03-22T00:08:30+08:00*%
+%TF.ProjectId,joy-con,6a6f792d-636f-46e2-9e6b-696361645f70,rev?*%
+%TF.SameCoordinates,Original*%
+%TF.FileFunction,Profile,NP*%
+%FSLAX46Y46*%
+G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
+G04 Created by KiCad (PCBNEW 7.0.5) date 2024-03-22 00:08:30*
+%MOMM*%
+%LPD*%
+G01*
+G04 APERTURE LIST*
+%TA.AperFunction,Profile*%
+%ADD10C,0.120000*%
+%TD*%
+G04 APERTURE END LIST*
+D10*
+%TO.C,K26*%
+X87577676Y-58990631D02*
+G75*
+G03*
+X87577676Y-58990631I-8000000J0D01*
+G01*
+X96415656Y-58990631D02*
+G75*
+G03*
+X96415656Y-58990631I-16837980J0D01*
+G01*
+%TD*%
+M02*
